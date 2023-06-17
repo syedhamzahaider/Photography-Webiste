@@ -1,0 +1,72 @@
+body{
+
+    background-color: rgb(24, 11, 71);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+ .img-fluid {
+  max-width: 100%;
+  height: auto;
+  }
+.row{
+  margin: 13px;
+}
+element.style {
+  height: 435px;
+}
+#downloadbtn{
+  background-color: chartreuse;
+  color: aliceblue;
+  border-radius: 30px;
+  border-color:chartreuse;
+  height: 25%;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  text-align: center;
+  font-style: oblique;
+}
+#like{
+  background-color: rgb(235, 8, 8);
+  color: aliceblue;
+  border-radius: 30px;
+  border-color:rgb(255, 0, 0);
+  height: 25%;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  text-align: right;
+  font-style: oblique;
+}
