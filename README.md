@@ -29,7 +29,7 @@ This is a simple photography website showcasing a collection of images. Users ca
 
 2. Set up the database:
    - Create a new database in your MySQL server.
-   - Import the `database.sql` file located in the `database` folder to create the necessary tables.
+   - Import the `test_db.sql` file.
 
 3. Update the database connection:
    - Open the `db_conn.php` file.
